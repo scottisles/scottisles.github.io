@@ -685,10 +685,10 @@ const textNodes = [
   text: 'Your are clubbed to death \r \r GAME OVER',
   options: [
     {text: 'Restart the game?',
-    helmutScore: '0',
-    armourScore: '0',
-    shieldScore: '0',
-    weaponScore: '0',
+    helmutScore: 'Game',
+    armourScore: 'Over',
+    shieldScore: 'Game',
+    weaponScore: 'Over'
     storypart: 1}
   ]
 },
@@ -698,10 +698,10 @@ const textNodes = [
   text: 'You are left to die \r \r GAME OVER',
   options: [
     {text: 'Restart the game?', 
-    helmutScore: '0',
-    armourScore: '0',
-    shieldScore: '0',
-    weaponScore: '0',
+    helmutScore: 'Game',
+    armourScore: 'Over',
+    shieldScore: 'Game',
+    weaponScore: 'Over'
     storypart: 1}
   ]
 },
@@ -711,10 +711,10 @@ const textNodes = [
   text: 'You are scorched by the sun and have water to hydrate yourself. \r \r GAME OVER',
   options: [
     {text: 'Restart the game?', 
-    helmutScore: '0',
-    armourScore: '0',
-    shieldScore: '0',
-    weaponScore: '0',
+    helmutScore: 'Game',
+    armourScore: 'Over',
+    shieldScore: 'Game',
+    weaponScore: 'Over'
     storypart: 1}
   ]
 },
@@ -724,10 +724,10 @@ const textNodes = [
   text: 'The Dragon consumes you! \r \r GAME OVER',
   options: [
     {text: 'Restart the game?', 
-    helmutScore: '0',
-    armourScore: '0',
-    shieldScore: '0',
-    weaponScore: '0',
+    helmutScore: 'Game',
+    armourScore: 'Over',
+    shieldScore: 'Game',
+    weaponScore: 'Over'
     storypart: 1}
   ]
 },
@@ -737,10 +737,10 @@ const textNodes = [
   text: 'The group of Bandits beat you to death and steal all your coin and armour \r \r GAME OVER',
   options: [
     {text: 'Restart the game?', 
-    helmutScore: '0',
-    armourScore: '0',
-    shieldScore: '0',
-    weaponScore: '0',
+    helmutScore: 'Game',
+    armourScore: 'Over',
+    shieldScore: 'Game',
+    weaponScore: 'Over'
     storypart: 1}
   ]
 },
@@ -749,10 +749,10 @@ const textNodes = [
   text: '"the guard grabs you by the throat through the cell door and slices your neck with a dagger"',
   options: [
     {text: 'You slowly die as the blood trickles out your neck',
-    helmutScore: '0',
-    armourScore: '0',
-    shieldScore: '0',
-    weaponScore: '0',
+    helmutScore: 'Game',
+    armourScore: 'Over',
+    shieldScore: 'Game',
+    weaponScore: 'Over'
     storypart: 1},
   ]
 },
@@ -763,16 +763,16 @@ const textNodes = [
   text: 'CONGRATULATION \R you have completed the Chaos Dungeon \r \r Well Done!',
   options: [
     {text: 'Restart the game?', 
-    helmutScore: '0',
-    armourScore: '0',
-    shieldScore: '0',
-    weaponScore: '0',
+    helmutScore: 'Game',
+    armourScore: 'Over',
+    shieldScore: 'Game',
+    weaponScore: 'Over'
     storypart: 1},
     {text: 'Celebrate?', 
-    helmutScore: '0',
-    armourScore: '0',
-    shieldScore: '0',
-    weaponScore: '0',
+    helmutScore: 'Game',
+    armourScore: 'Over',
+    shieldScore: 'Game',
+    weaponScore: 'Over',
     storypart: 161}
   ]
 },
@@ -795,7 +795,11 @@ const textNodes = [
   id: 200,
   text: 'TO BE CONTINUED......Thanks for playing',
   options: [
-    {text: 'Click to restart', storypart: 1},
+    {text: 'Click to restart', 
+    helmutScore: 'Game',
+    armourScore: 'Over',
+    shieldScore: 'Game',
+    weaponScore: 'Over',storypart: 1},
 
   ]
 },
