@@ -1,3 +1,12 @@
+//Acknowledgments:
+// Youtube: learncode.academy https://www.youtube.com/channel/UCVTlvUkGslCV_h-nSAId8Sw
+// Youtube: WebDev Simplified - Kyle Cook - https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw
+// Udemy: Learn to Program in Javascript: Beginner to Pro - Raghavendra Dixit - https://www.udemy.com/
+// Udemy: Build a Quiz App with HTML, CSS and Javascript - James Quick  - https://www.udemy.com/
+// Udemy: Code your first game: Arcade in JavaScript - Chris DeLeon - https://www.udemy.com/
+// Udemy: HTML and CSS for Bedinners - Build a Website and Launch - EdwinDiaz - https://www.udemy.com/
+
+
 /* Variables declared using the elements from the HTML id's */
 const story = document.getElementById('storyboard'); 
 const choiceElement = document.getElementById('choice');
@@ -10,13 +19,14 @@ var x = document.getElementById("myAudio");
 //console.log('helmutScore');
 //console.log('armourScore');
 
-let state = {}
+
 
 function startGame () {
     state = {}
     showStoryNode(1)
 }
 
+//W3Schools for reference
 // Function to play and pause audio
 function playAudio() { 
     x.play();
@@ -26,6 +36,10 @@ function pauseAudio() {
     x.pause(); 
 } 
 
+
+
+
+// Acknowledgment: WebDev Simplified - Kyle Cook
 // Function to populate the story board using the id="storyboard"
 function showStoryNode(textNodeIndex) {
     const textNode = textNodes.find(textNode => textNode.id === textNodeIndex)
@@ -47,7 +61,7 @@ textNode.options.forEach(option => {
 })
 }
 
-
+// Udemy: Build a Quiz App with HTML, CSS and Javascript - James Quick
 //function to rise the armour levels
 function chooseOption(option) {
   showStoryNode(option.storypart);
@@ -57,32 +71,20 @@ function chooseOption(option) {
   weaponScore.innerHTML = option.weaponScore;
 }
   
-
+// Acknowledgment: WebDev Simplified - Kyle Cook, this site helpoed me setup the id's and text choices for the player.
 const textNodes = [
   {
     id: 1,
     text: 'You awaken in a prison cell dazed and unaware of your surroundings, all you can see is the light coming into your cell from the middle of the room and a couple of guards outside looking in and they say “so I see you’re finally awake”',
       options: [
       {text: 'You decide to say nothing',
-      helmutScore: '0',
-      armourScore: '0',
-      shieldScore: '0',
-      weaponScore: '0',
-      storypart: 10},
+      helmutScore: '0',      armourScore: '0',      shieldScore: '0',      weaponScore: '0',      storypart: 10},
 
       {text: 'You laugh out loud',
-      helmutScore: '0',
-      armourScore: '0',
-      shieldScore: '0',
-      weaponScore: '0',
-      storypart: 21},
+      helmutScore: '0',      armourScore: '0',      shieldScore: '0',      weaponScore: '0',      storypart: 21},
 
       {text: 'You ask the guards "How did I get here?"',
-      helmutScore: '0',
-      armourScore: '0',
-      shieldScore: '0',
-      weaponScore: '0',
-      storypart: 21}
+      helmutScore: '0',      armourScore: '0',      shieldScore: '0',      weaponScore: '0',      storypart: 21}
     ]
   },
   {
@@ -90,18 +92,10 @@ const textNodes = [
     text: 'As you didn’t respond, the guards rattles the prison bars with a piece of wood and says “Hoi! I can see you moving, get up before I make you...."',
     options: [
       {text: "Yeah I'm awake, How did I get here?",
-      helmutScore: '0',
-      armourScore: '0',
-      shieldScore: '0',
-      weaponScore: '0',
-      storypart: 22},
+      helmutScore: '0',      armourScore: '0',      shieldScore: '0',      weaponScore: '0',      storypart: 22},
 
       {text: 'Okay you got me, what is this place?',
-      helmutScore: '0',
-      armourScore: '0',
-      shieldScore: '0',
-      weaponScore: '0',
-      storypart: 21}
+      helmutScore: '0',      armourScore: '0',      shieldScore: '0',      weaponScore: '0',      storypart: 21}
     ]
   },
     {
@@ -109,65 +103,29 @@ const textNodes = [
     text: '“This is the prison of Donmore, the capital in the kingdom of Didsmore” says the guard on the right while the guard on the left is looking through what appears to be your clothes',
     options: [
       {text: '"Guard, What are you looking for?',
-      helmutScore: '0',
-      armourScore: '0',
-      shieldScore: '0',
-      weaponScore: '0',
-      storypart: 22},
+      helmutScore: '0',      armourScore: '0',      shieldScore: '0',      weaponScore: '0',      storypart: 22},
       {text: "'What have I done, i'm innocent?'",
-      helmutScore: '0',
-      armourScore: '0',
-      shieldScore: '0',
-      weaponScore: '0',
-      storypart: 22},
+      helmutScore: '0',      armourScore: '0',      shieldScore: '0',      weaponScore: '0',      storypart: 22},
       {text: 'Leave my clothes alone!',
-      helmutScore: '0',
-      armourScore: '0',
-      shieldScore: '0',
-      weaponScore: '0',
-      storypart: 24}
+      helmutScore: '0',      armourScore: '0',      shieldScore: '0',      weaponScore: '0',      storypart: 24}
     ]
   },
   {
     id: 22,
-    text: '"so, you don’t remember eh?.... robbing those poor helpless people of the city? Well, you are going to be in here for a long time. We might let you go if you can answer my riddle, deal?” the guard on the right says this while smirking and looking you dead in the eyes',
+    text: '"so, you don’t remember eh?.... robbing those poor helpless people of the city? Well, you are going to be in here for a long time We might let you go if you can answer my riddle, deal?” the guard on the right says this while smirking and looking you dead in the eyes"',
     options: [
-      {text: 'Okay then, whats the riddle?',
-      helmutScore: '0',
-      armourScore: '0',
-      shieldScore: '0',
-      weaponScore: '0',
-      storypart: 23},
+      {text: 'Okay then, whats the riddle?',      helmutScore: '0',      armourScore: '0',      shieldScore: '0',      weaponScore: '0',      storypart: 23},
       {text: "You think I'm that silly to be tricked into a riddle for freedom, I'd rather die!", 
-      helmutScore: 'Game',
-      armourScore: 'Over',
-      shieldScore: 'Game',
-      weaponScore: 'Over',
-      storypart: 150}
+      helmutScore: 'Game',      armourScore: 'Over',      shieldScore: 'Game',      weaponScore: 'Over',      storypart: 150}
     ]
   },
   {
     id: 23,
     text: "'Here goes, you have me today, tomorrow you will have more; As your time passes, I'm not easy to store; I don't take up space, But I'm only in one place; I am what you saw, but not what you see. What am I?'",
     options: [
-      {text: 'The Sun',
-      helmutScore: 'Game',
-      armourScore: 'Over',
-      shieldScore: 'Game',
-      weaponScore: 'Over',
-      storypart: 151},
-      {text: 'Memories',
-      helmutScore: '50/100',
-      armourScore: '50/100',
-       shieldScore: '0/100',
-      weaponScore: '50/100',
-      storypart: 39},
-      {text: 'Time',
-      helmutScore: 'Game',
-      armourScore: 'Over',
-      shieldScore: 'Game',
-      weaponScore: 'Over',
-      storypart: 151}
+      {text: 'The Sun',      helmutScore: 'Game',      armourScore: 'Over',      shieldScore: 'Game',      weaponScore: 'Over',      storypart: 151},
+      {text: 'Memories',      helmutScore: '50/100',      armourScore: '50/100',       shieldScore: '0/100',      weaponScore: '50/100',      storypart: 39},
+      {text: 'Time',      helmutScore: 'Game',     armourScore: 'Over',      shieldScore: 'Game',      weaponScore: 'Over',      storypart: 151}
     ]
   },
 
