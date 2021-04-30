@@ -1,0 +1,77 @@
+.splash{
+    height: 100%;
+    margin: 0;
+    padding:0;
+    width: 100vw;
+    height: 100vh;
+    background-image:url('/images/frontpage.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    position: relative;  
+    #background-color: rgb(66, 66, 66); 
+}
+
+/*Grid layout for the main site*/
+.grid-container-front {
+    display: grid;
+    grid-template-columns: auto auto auto;
+	grid-gap: 5px;
+	padding: 100px;
+    #background-color: rgb(109, 108, 108);
+    
+}
+.grid-container-front div{
+    text-align: center;
+    #background-color: rgb(255, 255, 255);
+}
+
+#welcome{
+    text-align: center;
+    font-family:'Lucida Grande';
+    font-size: 30px;
+    color: rgb(230, 198, 19);
+    text-shadow: black 2px 3px;
+}
+
+.container {
+    position: relative;
+}
+  
+  .image {
+    text-align: right;
+}
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+}
+  
+  .container:hover .overlay {
+    opacity: 4;
+  }
+
+
+  #hovers{
+    width: 150px;
+    height: 60px;
+    background-color: rgb(102, 3, 3);
+    border: 2px solid rgb(175, 168, 106);
+}
+
+#hovers h2 {
+    font-size: 100%;
+    color: rgb(247, 242, 0);
+}
+
+#hovers:hover{
+    background-color: rgb(167, 1, 1);
+    border:5px solid rgb(175, 168, 106);
+}
