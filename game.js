@@ -139,10 +139,10 @@ const textNodes = [
       weaponScore: '0',
       storypart: 23},
       {text: "You think I'm that silly to be tricked into a riddle for freedom, I'd rather die!", 
-      helmutScore: '0',
-      armourScore: '0',
-      shieldScore: '0',
-      weaponScore: '0',
+      helmutScore: 'Game',
+      armourScore: 'Over',
+      shieldScore: 'Game',
+      weaponScore: 'Over',
       storypart: 150}
     ]
   },
@@ -151,10 +151,10 @@ const textNodes = [
     text: "'Here goes, you have me today, tomorrow you will have more; As your time passes, I'm not easy to store; I don't take up space, But I'm only in one place; I am what you saw, but not what you see. What am I?'",
     options: [
       {text: 'The Sun',
-      helmutScore: '0',
-      armourScore: '0',
-      shieldScore: '0',
-      weaponScore: '0',
+      helmutScore: 'Game',
+      armourScore: 'Over',
+      shieldScore: 'Game',
+      weaponScore: 'Over',
       storypart: 151},
       {text: 'Memories',
       helmutScore: '50/100',
@@ -163,10 +163,10 @@ const textNodes = [
       weaponScore: '50/100',
       storypart: 39},
       {text: 'Time',
-      helmutScore: '0',
-      armourScore: '0',
-      shieldScore: '0',
-      weaponScore: '0',
+      helmutScore: 'Game',
+      armourScore: 'Over',
+      shieldScore: 'Game',
+      weaponScore: 'Over',
       storypart: 151}
     ]
   },
@@ -182,10 +182,10 @@ const textNodes = [
       weaponScore: '0',
       storypart: 25},
       {text: 'Ask again',
-      helmutScore: '0',
-      armourScore: '0',
-      shieldScore: '0',
-      weaponScore: '0',
+      helmutScore: 'Game',
+      armourScore: 'Over',
+      shieldScore: 'Game',
+      weaponScore: 'Over',
       storypart: 155},
     ]
   },
@@ -201,10 +201,10 @@ const textNodes = [
       weaponScore: '0',
       storypart: 23},
       {text: 'Stay quiet',
-      helmutScore: '0',
-      armourScore: '0',
-      shieldScore: '0',
-      weaponScore: '0',
+      helmutScore: 'Game',
+      armourScore: 'Over',
+      shieldScore: 'Game',
+      weaponScore: 'Over',
       storypart: 151},
     ]
   },
@@ -283,10 +283,10 @@ const textNodes = [
       weaponScore: '75/100',
       storypart: 45},
       {text: 'You decide to ignore and go about your day as normal', 
-      helmutScore: 'D',
-      armourScore: 'E',
-      shieldScore: 'A',
-      weaponScore: 'D',
+      helmutScore: 'Game',
+      armourScore: 'Over',
+      shieldScore: 'Game',
+      weaponScore: 'Over',
       storypart: 154}
     ]
   },
@@ -483,10 +483,10 @@ const textNodes = [
     text: 'You attack the bandit and your blade gets stuck in his armour, the bandit leader thrusts his great sword through your upper arm which leaves you helpless whilst the 3rd bandit swings for your head and decapitates you.',
     options: [
       {text: 'Its Game over',
-      helmutScore: '100/100',
-      armourScore: '100/100',
-      shieldScore: '0/100',
-      weaponScore: '100/100',
+      helmutScore: 'Game',
+      armourScore: 'Over',
+      shieldScore: 'Game',
+      weaponScore: 'Over',
       storypart: 151}
     ]
   },
@@ -685,10 +685,10 @@ const textNodes = [
   text: 'Your are clubbed to death \r \r GAME OVER',
   options: [
     {text: 'Restart the game?',
-    helmutScore: 'Game',
-    armourScore: 'Over',
-    shieldScore: 'Game',
-    weaponScore: 'Over'
+    helmutScore: '0',
+    armourScore: '0',
+    shieldScore: '0',
+    weaponScore: '0',
     storypart: 1}
   ]
 },
@@ -698,10 +698,10 @@ const textNodes = [
   text: 'You are left to die \r \r GAME OVER',
   options: [
     {text: 'Restart the game?', 
-    helmutScore: 'Game',
-    armourScore: 'Over',
-    shieldScore: 'Game',
-    weaponScore: 'Over'
+    helmutScore: '0',
+    armourScore: '0',
+    shieldScore: '0',
+    weaponScore: '0',
     storypart: 1}
   ]
 },
@@ -711,10 +711,10 @@ const textNodes = [
   text: 'You are scorched by the sun and have water to hydrate yourself. \r \r GAME OVER',
   options: [
     {text: 'Restart the game?', 
-    helmutScore: 'Game',
-    armourScore: 'Over',
-    shieldScore: 'Game',
-    weaponScore: 'Over'
+    helmutScore: '0',
+    armourScore: '0',
+    shieldScore: '0',
+    weaponScore: '0',
     storypart: 1}
   ]
 },
@@ -724,10 +724,10 @@ const textNodes = [
   text: 'The Dragon consumes you! \r \r GAME OVER',
   options: [
     {text: 'Restart the game?', 
-    helmutScore: 'Game',
-    armourScore: 'Over',
-    shieldScore: 'Game',
-    weaponScore: 'Over'
+    helmutScore: '0',
+    armourScore: '0',
+    shieldScore: '0',
+    weaponScore: '0',
     storypart: 1}
   ]
 },
@@ -737,10 +737,10 @@ const textNodes = [
   text: 'The group of Bandits beat you to death and steal all your coin and armour \r \r GAME OVER',
   options: [
     {text: 'Restart the game?', 
-    helmutScore: 'Game',
-    armourScore: 'Over',
-    shieldScore: 'Game',
-    weaponScore: 'Over'
+    helmutScore: '0',
+    armourScore: '0',
+    shieldScore: '0',
+    weaponScore: '0',
     storypart: 1}
   ]
 },
@@ -749,10 +749,10 @@ const textNodes = [
   text: '"the guard grabs you by the throat through the cell door and slices your neck with a dagger"',
   options: [
     {text: 'You slowly die as the blood trickles out your neck',
-    helmutScore: 'Game',
-    armourScore: 'Over',
-    shieldScore: 'Game',
-    weaponScore: 'Over'
+    helmutScore: '0',
+    armourScore: '0',
+    shieldScore: '0',
+    weaponScore: '0',
     storypart: 1},
   ]
 },
@@ -763,16 +763,16 @@ const textNodes = [
   text: 'CONGRATULATION \R you have completed the Chaos Dungeon \r \r Well Done!',
   options: [
     {text: 'Restart the game?', 
-    helmutScore: 'Game',
-    armourScore: 'Over',
-    shieldScore: 'Game',
-    weaponScore: 'Over'
+    helmutScore: '0',
+    armourScore: '0',
+    shieldScore: '0',
+    weaponScore: '0',
     storypart: 1},
     {text: 'Celebrate?', 
-    helmutScore: 'Game',
-    armourScore: 'Over',
-    shieldScore: 'Game',
-    weaponScore: 'Over',
+    helmutScore: '0',
+    armourScore: '0',
+    shieldScore: '0',
+    weaponScore: '0',
     storypart: 161}
   ]
 },
@@ -796,10 +796,11 @@ const textNodes = [
   text: 'TO BE CONTINUED......Thanks for playing',
   options: [
     {text: 'Click to restart', 
-    helmutScore: 'Game',
-    armourScore: 'Over',
-    shieldScore: 'Game',
-    weaponScore: 'Over',storypart: 1},
+    helmutScore: '0',
+    armourScore: '0',
+    shieldScore: '0',
+    weaponScore: '0',
+    storypart: 1},
 
   ]
 },
@@ -811,10 +812,10 @@ const textNodes = [
     options: [
       {
         text: 'Restart the game?',
-        helmutScore: 'D',
-        armourScore: 'E',
-        shieldScore: 'A',
-        weaponScore: 'D',
+        helmutScore: '0',
+        armourScore: '0',
+        shieldScore: '0',
+        weaponScore: '0',
         storypart: 1}
     ]
   },
