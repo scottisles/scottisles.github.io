@@ -112,7 +112,7 @@ const textNodes = [
   },
   {
     id: 22,
-    text: '"so, you don’t remember eh?.... robbing those poor helpless people of the city? Well, you are going to be in here for a long time We might let you go if you can answer my riddle, deal?” the guard on the right says this while smirking and looking you dead in the eyes"',
+    text: '"so, you don’t remember eh?.... robbing those poor helpless people of the city? Well, your going to be in here for a long time. We might let you go if you can answer my riddle, deal?” the guard on the right says this while smirking and looking you dead in the eyes"',
     options: [
       {text: 'Okay then, whats the riddle?',      helmutScore: '0',      armourScore: '0',      shieldScore: '0',      weaponScore: '0',      storypart: 23},
       {text: "You think I'm that silly to be tricked into a riddle for freedom, I'd rather die!", 
@@ -189,7 +189,7 @@ const textNodes = [
     id: 40,
     text: "'The guard kindly shows you to the exit, as soon as the doors open your run, but where too? '",
     options: [
-      {text: "'You head to the local Didsmore Inn for a pint or lager'",
+      {text: "'You head to the local Didsmore Inn for a pint of lager'",
       helmutScore: '50/100',
       armourScore: '75/100',
        shieldScore: '0/100',
@@ -219,9 +219,9 @@ const textNodes = [
 
   {
     id: 42,
-    text: 'Armour - Upgraded to 75%\r\rOn route, a courier aproaches with a letter. "pppppp-please take this its u-urgent" as he stutters his words out noticabley getting more anxious as he trembles',
+    text: 'Armour - Upgraded to 75%\r\rOn route, a courier aproaches with a letter. "pppppp-please take this its u-urgent" as he stutters his words out noticabley getting more anxious as he trembles.',
     options: [
-      {text: 'take the Letter',
+      {text: 'Take the letter',
       helmutScore: '50/100',
       armourScore: '75/100',
        shieldScore: '0/100',
@@ -251,7 +251,7 @@ const textNodes = [
 
   {
     id: 45,
-    text: 'Your Helmut and Weapon are upgraded to 75%.\r\rOn your journey to the castle you meet a band of raiders running from a small hamlet which you can see in the distance. There houses on fire and people screaming for help',
+    text: 'Your Helmut and Weapon are upgraded to 75%.\r\rOn your journey to the castle you meet a band of raiders running from a small hamlet which you can see in the distance. Their houses are on fire and people screaming for help',
     options: [
       {text: 'Talk to the bandits',
       helmutScore: '75/100',
@@ -259,13 +259,13 @@ const textNodes = [
        shieldScore: '0/100',
       weaponScore: '75/100',
       storypart: 46},
-      {text: 'fight the bandits',
+      {text: 'Fight the bandits',
       helmutScore: '75/100',
       armourScore: '75/100',
        shieldScore: '0/100',
       weaponScore: '75/100',
       storypart: 47},
-      {text: 'Help the towns people',
+      {text: 'Help the village people',
       helmutScore: '75/100',
       armourScore: '75/100',
        shieldScore: '0/100',
@@ -284,7 +284,7 @@ const textNodes = [
        shieldScore: '0/100',
       weaponScore: '75/100',
       storypart: 49},
-      {text: 'Ask them to come to some sort of agreement', 
+      {text: 'Ask them to come to an agreement', 
       helmutScore: '75/100',
       armourScore: '75/100',
        shieldScore: '0/100',
@@ -296,7 +296,7 @@ const textNodes = [
 
   {
     id: 47,
-    text: 'You aproach the bandits, what weapon do you use',
+    text: 'You aproach the bandits, what weapon will you use?',
     options: [
       {text: 'Sword', 
       helmutScore: '100/100',
@@ -340,9 +340,9 @@ const textNodes = [
 
   {
     id: 49,
-    text: '"Stop or else.... What!" shouts the middle of three bandits, he looks to be thier leader',
+    text: 'You shout "Stop or else"....the middle of three bandits turns and shouts "What!", he looks to be the leader or the bunch',
     options: [
-      {text: 'If you dont stop ill just have to kill you',
+      {text: 'If you dont stop, ill just have to kill you',
       helmutScore: '75/100',
       armourScore: '75/100',
        shieldScore: '0/100',
@@ -378,15 +378,15 @@ const textNodes = [
 
   {
     id: 51,
-    text: 'Helmut and Armour upgrade to 100%\r\rNo i dont think we can, you can either walk on and mind your own buisness or you can die" says the bandit who looks to be thier leader',
+    text: 'Helmut and Armour upgrade to 100%\r\rNo I dont think we can, you can either walk on and mind your own buisness or you can die!" says the bandit leader',
     options: [
-      {text: 'You shout back "if you dont, ill just have to kill you', 
+      {text: 'You shout back "If you dont, ill just have to kill you', 
       helmutScore: '100/100',
       armourScore: '100/100',
        shieldScore: '0/100',
       weaponScore: '75/100',
       storypart: 53},
-      {text: 'You reply "what if i dont?"', 
+      {text: 'You reply "What if i dont?"', 
       helmutScore: '100/100',
       armourScore: '100/100',
        shieldScore: '0/100',
@@ -412,7 +412,7 @@ const textNodes = [
 
   {
     id: 53,
-    text: 'After unsheathing your weapon the bandits ready thier rapiers, which bandit do you attack?',
+    text: 'After unsheathing your weapon the bandits ready thier rapiers, which bandit do you attack first?',
     options: [
       {text: 'Left Bandit', 
       helmutScore: '100/100',
@@ -451,7 +451,7 @@ const textNodes = [
 
   {
     id: 55,
-    text: 'Helmut Armour and Weapon are at 100%\rYou swing your weapon at the bandit leader and feel it slices through his neck followed, this was followed by a large thud on the floor. You look down and smile realiosing his head came clean off. The other 2 bandits see this and decide to make a run for it shouting between each other "what the hell was that, im not sticking around for it to happen to me"',
+    text: 'Helmut Armour and Weapon are at 100%\rYou swing your weapon at the bandit leader and feel it slices through his neck, this was followed by a large thud on the floor. You look down and smile realiosing his head came clean off. The other 2 bandits see this and decide to make a run for it shouting between each other "what the hell was that, im not sticking around for it to happen to me"',
        options: [
       {text: 'Loot the bandit leader', 
       helmutScore: '100/100',
@@ -521,7 +521,7 @@ const textNodes = [
 
   {
     id: 59,
-    text: "'one of the villagers aproaches and she taps you on the knee, as you are 5'10 and she is 3'0 and she point and says in a shaky voice go that way that will take you straight to the castle gates in the city of vermouth'",
+    text: "'One of the villagers aproaches and taps you on the knee, as you are 5'10 and she is 3'0. She points and says in a shaky voice, 'go that way'..... that will take you straight to the castle gates in the city of vermouth'",
     options: [
       {text: 'Go that way -->', 
       helmutScore: '100/100',
@@ -536,7 +536,7 @@ const textNodes = [
     id: 60,
     text: 'You speak with an old woman who says "oh we dont need help with anything kind sir but is there anything i can help you with?"',
     options: [
-      {text: 'ask for directions to the castle', 
+      {text: 'Ask for directions to the castle', 
       helmutScore: '100/100',
       armourScore: '100/100',
       shieldScore: '100/100',
@@ -576,7 +576,7 @@ const textNodes = [
 
   {
     id: 64,
-    text: 'you walk past her without even looking in her direction and you suddenly appear at the castle as if you were knocked unconconcious',
+    text: 'You walk past her without even looking in her direction, Suddenly you appear at the castle as if you were knocked unconconcious',
     options: [
       {text: 'Go into the Castle', 
       helmutScore: '100/100',
@@ -584,7 +584,7 @@ const textNodes = [
       shieldScore: '100/100',
       weaponScore: '100/100',
       storypart: 65},
-      {text: 'ask a local what just happened', 
+      {text: 'Ask a local "what just happened"', 
       helmutScore: '100/100',
       armourScore: '100/100',
       shieldScore: '100/100',
@@ -595,15 +595,15 @@ const textNodes = [
 
   {
     id: 65,
-    text: "'As you enter the castle the king is already there waiting for you, i-i've been waiting for you, what took you so long he exclaims'",
+    text: "'As you enter the Castle the King is already there waiting for you, what took you so long he questioned'",
     options: [
-      {text: 'it was a long journey', 
+      {text: 'It was a long journey', 
       helmutScore: '100/100',
       armourScore: '100/100',
       shieldScore: '100/100',
       weaponScore: '100/100',
       storypart: 66},
-      {text: 'say about the traveller', 
+      {text: 'Tell him about your journey to get here', 
       helmutScore: '100/100',
       armourScore: '100/100',
       shieldScore: '100/100',
@@ -614,7 +614,7 @@ const textNodes = [
 
   {
     id: 66,
-    text: 'well ofc how silly of me haha, i have a gift for you" he exclaims and he hands you a map',
+    text: 'Well ofc how silly of me haha, i have a gift for you" he exclaims and he hands you a map',
     options: [
       {text: 'take the map', 
       helmutScore: '100/100',
